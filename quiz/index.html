@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+<body>
+
+
+<!--top section-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Quiz: How Piggo Are You</h2>
+        </div>
+    </div> 
+
+<!--piggo card-->
+<div class="card" style="width: 18rem;">
+    <img src="https://avatars.githubusercontent.com/u/171057090?v=4" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">I am piggo</h5>
+      <p class="card-text">Soft and pink, I bring delight <br>Snuggles through the night</p>
+      <a href="#" class="btn btn-primary">Oink</a>
+    </div>
+</div>
+
+<!--result section-->
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>You are <span class="text-primary display-4 p-3">0%</span> Piggo
+
+        </p>
+    </div>
+</div>
+
+<!--quiz section-->
+<div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">Answer the questions</h2>
+
+        <form class="quiz-form text-light">
+            <!--q1-->
+            <div class="my-5">
+                <p class="lead font-weight-normal">1. How do you sleep at night?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label class="form-check-label">haunted by my past</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B">
+                    <label class="form-check-label">soundly</label>
+                </div>
+            </div>
+            <!--q2-->
+            <div class="my-5">
+                <p class="lead font-weight-normal">2. How do you like your pork chops?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label class="form-check-label">well done</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="B">
+                    <label class="form-check-label">o.o</label>
+                </div>
+            </div>
+            <!--q3-->
+            <div class="my-5">
+                <p class="lead font-weight-normal">3. How deep is your love?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label class="form-check-label">you're the light in my deepest, darkest hour</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="B">
+                    <label class="form-check-label">we're living in a world of fools</label>
+                </div>
+            </div>
+            <!--q4-->
+            <div class="my-5">
+                <p class="lead font-weight-normal">4. Which button?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label class="form-check-label">This button</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="B">
+                    <label class="form-check-label">No, this button</label>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
