@@ -35,8 +35,17 @@ form.addEventListener('submit', e =>{
         }
     }, 75);
     
+    card.classList.remove('d-none');
+
+    //when you press submit, if you didn't select choices, alert pops up
 });
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    event.preventDefault();
+    const button = document.querySelector('.btn-primary');
 
-
-
+    button.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default anchor behavior
+        location.reload(); // Reloads the current page
+    });
+});
