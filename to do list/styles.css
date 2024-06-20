@@ -1,0 +1,44 @@
+body {
+    background: #352f5b;
+}
+.container {
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 600px;
+}
+.todos li{
+    /*background: #423a6f;*/
+    background: rgba(255, 255, 255, 0.1);
+}
+.delete{
+    cursor:pointer;
+}
+/* Reset text color for list items and form controls */
+.list-group-item,
+.form-control {
+    color: #ffffff; /* White text color */
+}
+
+/* Reset border styles for list items */
+.list-group-item {
+    border: none; /* Remove default border */
+}
+
+/* Custom CSS for spacing between list items */
+.todos .list-group-item {
+    margin-bottom: 2px; /* Adjust margin-bottom as needed */
+}
+
+/* Custom CSS for placeholder text */
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+}
+
+.filtered{
+    display: none !important;
+}
